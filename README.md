@@ -3,13 +3,15 @@
 #### By **Greg Katono**
 ## Description
 InstaSim is a social networking app made for sharing photos from a smartphone. It can be accessed using other devices such as laptops or gaming devices(playstations). Similar to Facebook or Twitter, everyone who creates an InstaSim account has a profile. When you post a photo InstaSim, it will be displayed on your profile.
-## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+#### This is how you get the app...
+* First you need to clone the repository(the steps are provided in the github help settings).
+* Pip freeze the dependencies using pip freeze command
+* Add a virtual environment 
+* Add a requirment.txt and list the all the dependencies
+* Set up a database and migrate it
+* Run the application        
+The steps provided above requires you to add commands in you computer terminal.
+
 ## Known Bugs
 Their are not any bugs in the website.Incase you spot a bug you may request a pull request.
 ## Technologies Used
