@@ -14,6 +14,10 @@ The steps provided above requires you to add commands in you computer terminal.
 
 ## Known Bugs
 Their are not any bugs in the website.Incase you spot a bug you may request a pull request.
+
+## Accessing the Admin page 
+USERNAME : Greg
+PASSWORD : greg1234, **if it refuses** Greg1234 with capital
 ## Technologies Used
 Python3.6
 Django1.11
