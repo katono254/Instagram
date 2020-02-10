@@ -27,8 +27,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Instaclone',
     
-    
 ]
+CRISPY_TEMPLATE_PACK = 'uni_form'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

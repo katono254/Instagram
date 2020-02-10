@@ -1,5 +1,5 @@
 {% extends 'instagram/layout.html' %}
-{% load crispy_forms_tags %}
+
 {% block content %}
 <div class="container" style="margin-top:8%">
     <div class="content-section">
@@ -48,8 +48,8 @@
                 <div class="modal-content">
                     <form action="" method="post" novalidate enctype="multipart/form-data" class="mr-4 mt-4 ml-4 mb-4">
                         {% csrf_token%}
-                        {{ user_form|crispy}}
-                        {{ prof_form|crispy}}
+                    
+                        
                         <button type="submit" class="btn btn-primary btn-sm"> Update Profile</button>
                     </form>
                 </div>
