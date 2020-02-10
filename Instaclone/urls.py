@@ -1,4 +1,4 @@
-from django.conf.urls import path, include
+from django.conf.urls import url,include
 from Instaclone.views import PostLikeToggle, PostLikeAPIToggle
 from . import views
 
