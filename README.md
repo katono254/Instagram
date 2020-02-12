@@ -23,4 +23,5 @@ Python3.6
 Django1.11
 ## Support and contact details
 Questions about InstaSim can be answered when you contact blackrocket.47@gmail.com or call 0713313990
+
 Copyright (c) {2020} **Greg Katono**
