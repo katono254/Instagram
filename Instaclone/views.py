@@ -50,7 +50,7 @@ def index(request):
 
 
 @login_required(login_url='login')
-def profile(request, username):
+def profile(request):
     images = request.user.profile.posts.all()
     if request.method == 'POST':
         user_form = UpdateUserForm(request.POST, instance=request.user)
